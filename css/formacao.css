@@ -19,7 +19,7 @@
   height: 100px;
   background: url("../img/detalhe.svg") no-repeat center;
   position: absolute;
-  bottom: -630px;
+  bottom: -590px;
   left: 20px;
 }
 
@@ -145,5 +145,8 @@
   }
   .formacao-extra h3::before {
     position: initial;
+  }
+  .formacao-container::after {
+    display: none;
   }
 }

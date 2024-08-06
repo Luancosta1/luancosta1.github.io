@@ -104,4 +104,7 @@
   .empresa {
     grid-template-columns: 1fr;
   }
+  .empresa::before {
+    display: none;
+  }
 }
